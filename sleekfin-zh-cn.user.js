@@ -3,7 +3,7 @@
 // @name:zh-CN        SleekFin 简体中文汉化
 // @name:en           SleekFin Simplified Chinese Localization
 // @namespace         https://github.com/wu66chen/sleekfin-zh-cn
-// @version           0.4.0
+// @version           0.4.1
 // @description       汉化 Jellyfin SleekFin 设置页（概览、界面设计器和下拉选项），并改善原生下拉选项的对比度。
 // @description:zh-CN 汉化 Jellyfin SleekFin 设置页（概览、界面设计器和下拉选项），并改善原生下拉选项的对比度。
 // @description:en    Translate SleekFin's Jellyfin settings UI into Simplified Chinese and improve native dropdown contrast.
