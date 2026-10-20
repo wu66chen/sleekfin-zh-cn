@@ -1,6 +1,9 @@
+
 # SleekFin 简体中文汉化 · SleekFin Simplified Chinese Localization
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Version](https://img.shields.io/greasyfork/v/601141?label=Version&color=blue)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+[![GreasyFork](https://img.shields.io/badge/GreasyFork-一键安装-red.svg)](https://update.greasyfork.org/scripts/601141/sleekfin-zh-cn.user.js)
 
 为 [SleekFin](https://github.com/varunaditya-plus/SleekFin) 插件的 Jellyfin 网页**设置界面**提供简体中文翻译，并改善部分 Chrome/Windows 原生下拉菜单的文字对比度。
 
@@ -21,18 +24,28 @@
 1. Jellyfin Web 和已安装、正常运行的 [SleekFin](https://github.com/varunaditya-plus/SleekFin)；SleekFin 按其官方说明依赖 File Transformation 插件。
 2. 支持用户脚本的浏览器扩展，例如 [Tampermonkey](https://www.tampermonkey.net/)。
 
+
 ## 安装方法
 
-**从 GitHub 安装**
+### 方式一：Greasy Fork 一键安装（推荐）
 
-1. 安装并启用 Tampermonkey。
-2. 打开 [`sleekfin-zh-cn.user.js`](./sleekfin-zh-cn.user.js) 的 Raw 地址并按浏览器扩展提示安装：
-   `https://raw.githubusercontent.com/wu66chen/sleekfin-zh-cn/main/sleekfin-zh-cn.user.js`
-3. 重新打开 Jellyfin → 控制台 → SleekFin；如页面已打开，刷新一次。
+1. 安装并启用 [Tampermonkey](https://www.tampermonkey.net/)。
+2. 点击 [**Greasy Fork 一键安装**](https://update.greasyfork.org/scripts/601141/sleekfin-zh-cn.user.js)。
+3. 在 Tampermonkey 中确认安装。
+4. 打开 Jellyfin → 控制台 → SleekFin，刷新页面即可。
 
-**从 Greasy Fork 安装**
+通过 Greasy Fork 安装的版本支持由用户脚本管理器检查更新。
 
-等待发布后补充 Greasy Fork 的正式安装链接。通过 Greasy Fork 安装的版本由该平台管理更新。
+### 方式二：GitHub Raw 安装
+
+1. 安装并启用 [Tampermonkey](https://www.tampermonkey.net/)。
+2. 点击 [**从 GitHub Raw 安装脚本**](https://raw.githubusercontent.com/wu66chen/sleekfin-zh-cn/main/sleekfin-zh-cn.user.js)，按浏览器扩展提示安装。
+3. 打开 Jellyfin → 控制台 → SleekFin，刷新页面即可。
+
+<sub>GitHub 安装源文件：`sleekfin-zh-cn.user.js`</sub>
+
+> <sub>注意：如果此前安装过 v0.1～v0.3 测试脚本，请先停用旧版本，避免多个脚本同时运行。</sub>
+
 
 ## 适用地址范围
 
